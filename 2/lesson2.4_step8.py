@@ -29,4 +29,5 @@ try:
     get_el('[type="submit"]').click()
 finally:
     time.sleep(8)
-    browser.quit
+    browser.quit ()
+
